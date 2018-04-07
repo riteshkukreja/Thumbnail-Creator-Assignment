@@ -1,0 +1,31 @@
+{
+  "name": "thumbnail-creator-assignment",
+  "version": "1.0.0",
+  "description": "Node app to create thumbnails for a uploaded image",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "clean": "rm -rf uploads/*"
+  },
+  "keywords": [
+    "thumbnails",
+    "image",
+    "project",
+    "insider"
+  ],
+  "author": "Ritesh <ritesh101094@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^1.6.0",
+    "body-parser": "^1.18.2",
+    "config": "^1.30.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "logger": "0.0.1",
+    "morgan": "^1.9.0",
+    "node-uuid": "^1.4.8",
+    "redis": "^2.8.0",
+    "sharp": "^0.20.1"
+  }
+}

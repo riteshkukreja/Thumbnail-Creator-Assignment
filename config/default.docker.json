@@ -1,0 +1,28 @@
+{
+    "port": 3000,
+    "host": "0.0.0.0",
+    "log_level": "debug",
+    "upload_limits": {
+        "types": ["jpeg", "jpg", "png"],
+        "size": 52428800,
+        "width": 1024,
+        "height": 1024
+    },
+    "crop_dimensions": [
+        [755, 450],
+        [365, 450],
+        [365, 212],
+        [380, 380]
+    ],
+    "redis": {
+        "host": "redis",
+        "port": 6379,
+        "key": "images"
+    },
+    "storage": {
+        "path": "uploads",
+        "project_id": "<project-id>",
+        "keyFilename": "config/<keyfile>.json",
+        "bucket": "<bucket-name>"
+    }
+}

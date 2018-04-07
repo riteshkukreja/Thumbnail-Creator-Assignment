@@ -1,0 +1,98 @@
+
+.gallery-title {
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.filter-button {
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+}
+
+button[type=button].btn.btn-primary {
+    font-size: 18px;
+    border: 1px solid #06A;
+}
+
+.filter-button:hover {
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+}
+
+.btn-default:active .filter-button:active, .btn-default .filter-button.active {
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image {
+    width: 100%;
+}
+
+.gallery_product {
+    margin-bottom: 30px;
+}
+
+img.imagepreview {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+input[type=file] {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+input[type=file] + label {
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    border: 1px solid #e74c3c;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+input[type=file]:focus + label,
+input[type=file] + label:hover {
+    background-color: #c0392b;
+    cursor: pointer;
+}
+
+.modal-body {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.imagepreview {
+    display: none;
+}
+
+.imagepreview.default {
+    display: block;
+}
